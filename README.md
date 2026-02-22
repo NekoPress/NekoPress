@@ -1,16 +1,26 @@
-## Hi there 👋
+# NekoPress
 
-<!--
-**NekoPress/NekoPress** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Quality-first image compression engine for Windows (portable).
 
-Here are some ideas to get you started:
+## Download
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Use the latest release page:
+- https://github.com/NekoPress/NekoPress/releases/latest
+
+Download:
+- `NekoPress 1.0.0.exe`
+- `SHA256SUMS.txt` (optional integrity check)
+
+## How to use
+
+1. Run `NekoPress 1.0.0.exe`
+2. Add JPG or PNG files (one format per run)
+3. Choose output folder
+4. Select quality mode
+5. Start conversion
+
+## Notes
+
+- Portable app (no installer)
+- Windows SmartScreen warning may appear on unsigned builds
+- For support, use the GitHub repository issues page
