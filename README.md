@@ -24,7 +24,7 @@ Download:
 - Portable app (no installer)
 - Windows SmartScreen warning may appear on unsigned builds
 - For support, use the GitHub repository issues page
-- 
+
 ## Security
 
 - Electron hardening enabled: `contextIsolation: true`, `sandbox: true`, `nodeIntegration: false`.
