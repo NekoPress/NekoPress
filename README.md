@@ -8,12 +8,12 @@ Use the latest release page:
 - https://github.com/NekoPress/NekoPress/releases/latest
 
 Download:
-- `NekoPress 1.0.0.exe`
+- `NekoPress <version>.exe`
 - `SHA256SUMS.txt` (optional integrity check)
 
 ## How to use
 
-1. Run `NekoPress 1.0.0.exe`
+1. Run `NekoPress <version>.exe`
 2. Add JPG or PNG files (one format per run)
 3. Choose output folder
 4. Select quality mode
