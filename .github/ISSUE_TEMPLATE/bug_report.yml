@@ -1,0 +1,81 @@
+name: Bug report
+description: Report a reproducible problem in NekoPress.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting.
+        Please fill this form so we can reproduce and fix faster.
+  - type: checkboxes
+    id: precheck
+    attributes:
+      label: Before submitting
+      options:
+        - label: I am using the latest public release.
+          required: true
+        - label: I checked existing issues first.
+          required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: App version
+      placeholder: "e.g. 1.1.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Short description of the issue.
+      placeholder: "Describe the problem"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open app
+        2. Add file(s)
+        3. Click ...
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: "What should have happened?"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Support log
+      description: |
+        In app Info, click "Open Logs Folder" and attach the newest
+        `nekopress-support-*.log` file by drag-and-drop into this issue.
+      placeholder: "Attach file instead of pasting long logs when possible."
+    validations:
+      required: false
+  - type: textarea
+    id: extras
+    attributes:
+      label: Extra details (optional)
+      description: File type/size, screenshot, screen recording, etc.
+    validations:
+      required: false
+

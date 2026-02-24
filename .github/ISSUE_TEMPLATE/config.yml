@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: NekoPress Releases
+    url: https://github.com/NekoPress/NekoPress/releases/latest
+    about: Download and verify the latest release first.
+  - name: NekoPress Bug Report
+    url: https://github.com/NekoPress/NekoPress/issues/new/choose
+    about: Use the guided issue form to report bugs.
+
