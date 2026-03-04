@@ -58,3 +58,4 @@ Files:
 
 ```powershell
 Get-FileHash ".\NekoPress 1.1.1.exe" -Algorithm SHA256
+```
