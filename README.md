@@ -10,12 +10,12 @@ Use the latest release page:
 
 Files:
 
-- `NekoPress 1.1.2.exe`
+- `NekoPress 1.1.3.exe`
 - `SHA256SUMS.txt` (optional integrity check)
 
 ## How to use
 
-1. Run `NekoPress 1.1.2.exe`
+1. Run `NekoPress 1.1.3.exe`
 2. Add **JPG or PNG** files (**one format per run**)
 3. Choose output folder
 4. Select quality mode (`High Detail` / `Balanced` / `Small Display`)
@@ -57,5 +57,5 @@ Files:
 ## Optional integrity check
 
 ```powershell
-Get-FileHash ".\NekoPress 1.1.2.exe" -Algorithm SHA256
+Get-FileHash ".\NekoPress 1.1.3.exe" -Algorithm SHA256
 ```
