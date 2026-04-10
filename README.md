@@ -10,12 +10,12 @@ Use the latest release page:
 
 Files:
 
-- `NekoPress 1.1.3.exe`
+- `NekoPress-1.1.3.exe`
 - `SHA256SUMS.txt` (optional integrity check)
 
 ## How to use
 
-1. Run `NekoPress 1.1.3.exe`
+1. Run `NekoPress-1.1.3.exe`
 2. Add **JPG or PNG** files (**one format per run**)
 3. Choose output folder
 4. Select quality mode (`High Detail` / `Balanced` / `Small Display`)
@@ -49,6 +49,12 @@ Files:
 - Storage: SSD recommended
 - Distribution: portable executable (no installer)
 
+## Input Support and Output Guarantees
+
+- Input support: standard non-animated JPG/JPEG and single-frame PNG. Some CMYK/profiled JPG and 16-bit PNG inputs may also open when the current decoder can read them.
+- Output guarantees: re-encoded outputs are generated for practical web-upload use. They strip EXIF/XMP/IPTC/ICC by default. Same-format copied fallback also removes copied metadata and keeps only a minimal orientation tag when that is required for display correctness. ICC/profile retention and 16-bit PNG output preservation are not guaranteed in the current release line.
+- Keep original files if exact metadata, ICC/profile retention, or bit-depth preservation matters.
+
 ## Notes
 
 - Windows SmartScreen warning may appear on unsigned builds
@@ -57,5 +63,5 @@ Files:
 ## Optional integrity check
 
 ```powershell
-Get-FileHash ".\NekoPress 1.1.3.exe" -Algorithm SHA256
+Get-FileHash ".\NekoPress-1.1.3.exe" -Algorithm SHA256
 ```
